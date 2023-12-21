@@ -1,0 +1,17 @@
+Type role : {
+    0 : Buyer,
+    1 : Seller
+}
+
+1. Register
+    Method: Post
+    Endpoint: /register
+    Payload: {
+        "username": <<username>>,
+        "password": <<password>>,
+        "email": <<email>>,
+        "role": <<account_type>>
+    }
+    Response: {
+        "message": <<response_message>>
+    }
